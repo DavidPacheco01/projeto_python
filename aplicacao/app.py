@@ -69,6 +69,7 @@ def livros():
                 "titulo": livro.titulo,
                 "autor": livro.autor,
                 "issn": livro.issn,
+                "data_publicacao": livro.data_publicacao.strftime("%Y-%m-%d"),
                 "paginas": livro.paginas
             }
             for livro in livros_db
