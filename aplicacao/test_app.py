@@ -1,4 +1,4 @@
-# Importamos o Pytest (a ferramenta de testes) e o site com o banco de dados (APP e BD)
+# Testes unitários da aplicação Flask
 import pytest
 from app import APP, BD
 
